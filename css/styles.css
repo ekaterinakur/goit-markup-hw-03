@@ -113,6 +113,7 @@ img {
 	color: rgba(var(--dark-cl), 1);
 	font-weight: 500;
 	flex: 1 1 0;
+	gap: 0;
 	justify-content: left;
 }
 .header-logo {
@@ -237,10 +238,12 @@ img {
 	color: rgba(var(--dark-cl), 1);
 	margin-bottom: 8px;
 }
+.section-portfolio {
+	padding-top: 96px;
+}
 .filters {
 	justify-content: center;
-	padding-top: 96px;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 .filters button {
 	background: rgba(var(--light-bg), 1);
@@ -258,7 +261,6 @@ img {
 
 .portfolio {
 	flex-wrap: wrap;
-	padding-bottom: var(--section-padding);
 }
 .portfolio-card {
 	width: calc((100% - 2 * var(--flex-gap)) / 3);
